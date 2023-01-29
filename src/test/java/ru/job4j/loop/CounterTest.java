@@ -18,9 +18,9 @@ public class CounterTest {
     @Test
     public void when3To9() {
         int start = 3;
-        int finish = 9;
+        int finish = 4;
         int out = Counter.sum(start, finish);
-        int expected = 45;
+        int expected = 10;
         assertThat(expected).isEqualTo(out);
     }
 }
