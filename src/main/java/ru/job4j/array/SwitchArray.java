@@ -9,9 +9,9 @@ public class SwitchArray {
     }
 
     public static int[] swapBorder(int[] array) {
-        int temp = array[0]; //обнулили индекс, освободили ячейку.temp = 1
-        array[0] = array[array.length - 1]; // в array[0] поместили последний индекс = 6
-        array[array.length - 1] = temp; // в последний индекс поместили array[0] = 1;
+        int temp = array[0];
+        array[0] = array[array.length - 1];
+        array[array.length - 1] = temp;
         return array;
     }
 
