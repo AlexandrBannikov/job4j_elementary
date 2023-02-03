@@ -9,8 +9,8 @@ import java.util.Arrays;
   - отнимаем от сдачи номинал очередной монеты
   - кладем монету в массив
   - увеличиваем размер массива
-  // money купюра из кармана
-  // price цена покупки
+  - money купюра из кармана
+  - price цена покупки
  */
 public class Machine {
     public static int[] change(int money, int price) {
