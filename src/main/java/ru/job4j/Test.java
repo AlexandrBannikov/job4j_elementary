@@ -18,7 +18,7 @@ public class Test {
         boolean toBe = true;
         boolean notToBe = false;
         boolean question = toBe || notToBe;
-        System.out.println(2 > 0 && 3 < 5 && !false);
+        System.out.println(true);
 
     }
 }
