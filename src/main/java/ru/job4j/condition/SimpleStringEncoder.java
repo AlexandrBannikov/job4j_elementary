@@ -1,6 +1,5 @@
 package ru.job4j.condition;
 
-
 public class SimpleStringEncoder {
     public static String encode(String input) {
         String result = "";
